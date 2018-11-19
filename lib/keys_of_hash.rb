@@ -1,5 +1,6 @@
 class Hash
   def keys_of(arguments)
-    return []
+    Hash.each do |keys,values|
+      return keys
   end
 end
