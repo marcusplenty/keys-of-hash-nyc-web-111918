@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     x = []
     self.each do |keys,values|
       if self[keys] == arguments
