@@ -3,7 +3,6 @@ class Hash
     x = []
     self.each do |keys,values|
       if values == arguments
-        return "yeah"
         x << values
       end
     end
