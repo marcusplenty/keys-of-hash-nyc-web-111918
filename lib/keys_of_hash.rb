@@ -4,11 +4,11 @@ class Hash
     self.each do |keys, values|
       arguments.each do |q|
         if q == values
-        array.push(keys)
+          x.push(keys)
         end
       end 
     end
-    return array
+    return x
   end
   
 end 
